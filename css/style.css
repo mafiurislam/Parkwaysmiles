@@ -1,0 +1,867 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+*,
+*::after,
+*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+:
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+
+
+:root {
+	--blue:#548BBF;
+	--white:#fff;
+}
+
+
+/*.nanum-myeongjo-regular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+
+.top-header .d-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header {
+    padding-block: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+}
+.header .logo {
+	width:150px;
+}
+i.bi.bi-telephone-fill {
+    color: #000000;
+}
+.d-flex-two {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .d-flex{
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .logo img{
+	width:100%;
+}
+
+.stellarnav {
+    width: max-content;
+}
+.stellarnav > ul > li > a {
+    padding: 0;
+    font-size: 15px;
+    color: #525252;
+    font-weight: 500;
+}
+
+.stellarnav ul {
+    display: flex;
+    gap: 15px;
+}
+
+#appointment {
+    background: #548BBF;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 13px;
+}
+#appointment-2{
+    background: #548BBF;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+.stellarnav li.has-sub>a:after {
+    content: '';
+    margin-left: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    display: inline-block;
+}
+
+.d-flex-two {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+i.bi.bi-telephone-fill {
+    font-size: 25px;
+}
+
+
+.top-header{
+	display:none
+}
+
+.stellarnav.mobile>ul {
+    border-top: 1px solid rgba(255,255,255,.15);
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+}
+
+
+
+
+.banner {
+    background-color: pink;
+/*    background-image: url(../images/banner-1.jpg);*/
+    background: rgb(0,0,0);
+    background: linear-gradient(94deg, rgb(0 0 0 / 43%) 0%, rgb(0 0 0 / 56%) 100%), url(../images/banner-2.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.google-rate {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-block-start: 20px;
+}
+
+.google-img {
+    width: 30px;
+}
+.google-img img{
+    width: 100%;
+}
+
+.rate {
+    width: 100px;
+}
+.rate img{
+    width: 100px;
+}
+
+.banner .content{
+	text-align: center;
+	padding-block: 280px;
+}
+
+
+
+
+.banner h1 {
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 60px;
+    line-height: 62px;
+    font-weight: 600;
+    color: #fff;
+}
+.banner h5 {
+    font-size: 16px;
+    line-height: 1.3;
+    color: #fff;
+    font-weight: 500;
+    padding-block: 20px;
+    padding-block-end: 50px;
+}
+
+.banner p {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #d1caca;
+    font-weight: 400;
+    padding-block-start: 20px;
+}
+
+
+/*about-us###################*/
+
+
+.about-us{
+	padding-block: 80px;
+}
+
+.title h2 {
+    font-family: 'bootstrap-icons';
+    font-size: 50px;
+    line-height: 1.3;
+    color: #000;
+    font-weight: 500;
+}
+
+.title p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #323030;
+    font-weight: 400;
+    padding-block: 25px 40px;
+}
+#learn-more {
+    background: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: 12px 24px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50px;
+    display: flex;
+    width: max-content;
+    font-size: 14px;
+}
+
+a.btn-primary {
+    text-align: center;
+    display: block;
+    margin-block-start: 20px;
+    background: #548bbf;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 50px;
+    width: max-content;
+    display: flex;
+    margin: 30px auto;
+}
+
+
+a#view-more-reviews {
+    display: block;
+    padding: 12px 20px;
+    background: #548bbf;
+    color: #fff;
+    border-radius: 50px;
+    width: max-content;
+    font-size: 14px;
+}
+
+/*services######################*/
+
+
+
+section.services {
+    background: #acbfc321;
+    padding-block: 50px 50px;
+}
+
+img.card-img-top {
+    border-radius: 0;
+}
+.card {
+    border: none;
+    border-radius: 0%;
+    box-shadow: rgb(126 126 126 / 58%) 0px 1px 4px;
+    height: 420px;
+}
+
+.card-body {
+    padding-block-end: 35px;
+}
+
+
+/*reviews#####################################*/
+
+
+
+.reviews {
+    background: #19191A;
+    color: var(--white);
+    margin-block-start: 150px;
+}
+
+.reviews .d-flex{
+     align-items: center;
+     gap: 10px;
+}
+
+.reviews .d-flex .ster {
+    width: 130px;
+}
+.reviews .d-flex .ster img{
+	width: 100%;
+}
+.reviews .d-flex .google {
+   width: 45px;
+}
+.reviews .d-flex .google img {
+	width: 100%;
+}
+
+button#view-more-reviews {
+    display: block;
+}
+.riviwer-profile {
+    width: 120px;
+}
+.riviwer-profile img{
+	width: 100%;
+}
+.reviews .box {
+    padding: 70px 0;
+    width: 100%;
+}
+.reviews p {
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 400;
+    color: var(--white);
+    padding-block: 30px;
+}
+span#reviewer-name {
+    font-family: 'Nanum Myeongjo';
+    font-size: 25px;
+    font-weight: 500;
+    padding-block: 15px;
+    display: inline-block;
+}
+button#view-more-reviews {
+    background: #548BBF;
+    border: none;
+    color: #fff;
+    width: 215px;
+    height: 50px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+
+.slick-dots li button {
+	display: flex;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: var(--white);
+	justify-content: center;
+	align-items: center;
+    border:0;
+    font-size: 0;
+}
+
+.slick-dots li.slick-active button {
+    background:var(--blue);
+    width: 40px;
+    border-radius: 30px;
+}
+
+
+button.slick-arrow {
+	position: absolute;
+	bottom: -5px;
+	cursor: pointer;
+
+}
+
+button.next-arrow.slick-arrow {
+	
+    right: 43%;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #86C634;
+    color: #fff;
+    font-size: 20px;
+}
+
+button.prev-arrow.slick-arrow {
+	
+    left: 43%;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #86C634;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/*appointment#######################*/
+
+section.appointment {
+    background: #e6f0ff;
+    padding: 60px 0;
+}
+.appointment p span{
+	display: block;
+}
+
+.appointment p span a{
+    color: var(--blue);
+
+} 
+
+.form-all-box{
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+.box{
+	width: 48%;
+}
+label {
+    display: block;
+}
+
+.form-contral {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-block-end: 10px;
+    background: none;
+}
+.big-box {
+    width: 100%;
+}
+textarea {
+    resize: vertical;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.form-contral::placeholder{
+	color:#000;
+}
+.box {
+    width: 48%;
+    padding-block-end: 35px;
+}
+
+button#submit {
+    background: var(--blue);
+    border: none;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 30px;
+}
+
+
+
+/*location######################################*/
+.location{
+	background: #000;
+}
+iframe{
+	width: 100%;
+	height: 500px;
+}
+
+
+
+
+
+
+
+/*footer######################*/
+
+
+.footer{
+    background: #000;
+    padding-block: 50px;
+}
+.footer .d-flex{
+	justify-content: space-between;
+	align-items: center;
+}
+.footer .logo-block{
+	width: 150px;
+}
+.footer .logo-block img{
+	width: 100%;
+}
+ul.footer-nav {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.footer-nav li a{
+	color:var(--white);
+}
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+i.bi.bi-telephone-fill {
+    color: #548bbf;
+    font-size: 25px;
+}
+.footer h4{
+	color: var(--white);
+	padding-block-end: 20px;
+}
+
+.footer span{
+	color: var(--white);
+	padding-inline-start: 15px;
+}
+
+.footer .row{
+    padding-block-start: 50px;
+}
+
+.footer .box {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+
+}
+
+i.bi.bi-geo-fill {
+    color: var(--white);
+    font-size: 25px;
+}
+
+.footer .box p{
+	color: var(--white);
+}
+
+.hours ul li{
+    color: var(--white);
+    padding-block-end: 10px;
+}
+
+.footer h5 {
+    color: #7c7777;
+    font-size: 16px;
+    padding-block-start: 40px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+	.banner h1 {
+	    font-family: "Nanum Myeongjo", serif;
+	    font-size: 50px;
+	    line-height: 52px;
+	    font-weight: 600;
+	    color: #fff;
+	}
+	
+	.banner .content {
+	    padding-block: 230px;
+	}
+	.about-us {
+	    padding-block: 45px 80px;
+	}
+	.title h2 {
+	    font-size: 40px;
+	}
+	.card {
+	    border: none;
+	    height: 420px;
+	}
+
+
+}
+
+
+@media only screen and (max-width:991px){
+	.banner h1 {
+	    font-family: "Nanum Myeongjo", serif;
+	    font-size: 45px;
+	    line-height: 68px;
+	}
+	.banner .content {
+	    padding-block: 200px;
+	}
+	.card {
+	    margin-block-end: 20px;
+	}
+	.reviews {
+	    margin-block-start: 0;
+	}
+	.riviwer-profile {
+	    width: 120px;
+	    margin: 0 auto;
+	}
+	.slick-dots {
+	    bottom: 15px;
+	}
+	.footer .logo-block {
+	    width: 200px;
+	}
+	section.appointment {
+	    padding: 50px 0;
+	}
+	.footer .d-flex {
+	    flex-direction: column;
+	    gap: 40px;
+	}
+
+
+}
+
+@media only screen and (max-width:767px){
+	.banner h1 {
+	    font-size: 40px;
+	    line-height: 62px;
+	}
+	.banner p {
+	    font-size: 17px;
+	}
+	.banner h5 {
+	    padding-block-end: 30px;
+	}
+	.banner {
+	    background-size: cover;
+	}
+	.title h2 {
+	    font-size: 33px;
+	}
+	h5.card-title {
+	    font-size: 19px;
+	}
+	p.card-text {
+	    font-size: 15px;
+	    line-height: 25px;
+	}
+	ul.footer-nav {
+	    gap: 30px;
+	    justify-content: center;
+	    flex-wrap: wrap;
+	}
+	.footer h5 {
+	    line-height: 30px;
+	}
+
+
+}
+
+@media only screen and (max-width:480px){
+	#call {
+	    font-size: 13px;
+	}
+	#appointment {
+	    font-size: 13px;
+	}
+	.banner .content {
+	    padding-block: 100px;
+	}
+	.banner h1 {
+	    font-size: 32px;
+	    line-height: 50px;
+	}
+	.banner p {
+	    font-size: 14px;
+	}
+	#appointment-2 {
+	    padding: 14px 25px;
+	    border-radius: 30px;
+	    font-size: 16px;
+	}
+	.title h2 {
+	    font-size: 28px;
+	}
+	.title p {
+	    font-size: 14px;
+	    line-height: 28px;
+	    color: #323030;
+	    text-align: left!important;
+	}
+	.about-us {
+	    padding-block: 40px 60px;
+	}
+	.card {
+	    border: none;
+	    height: 470px;
+	}
+	.card {
+	    margin-block-end: 30px;
+	}
+	.reviews p {
+	    font-size: 14px;
+	    line-height: 30px;
+	}
+	button#view-more-reviews {
+	    width: 195px;
+	    height: 45px;
+	    font-size: 14px;
+	}
+	span#reviewer-name {
+	    font-size: 22px;
+	}
+	.reviews .d-flex .ster {
+	    width: 110px;
+	}
+	.reviews .d-flex .google {
+	    width: 35px;
+	}
+	.riviwer-profile {
+	    width: 80px;
+	    margin: 0 auto;
+	}
+	.reviews .box {
+	    padding: 40px 0;
+	    width: 100%;
+	}
+	section.services {
+	    background: #acbfc321;
+	    padding-block: 50px 20px;
+	}
+	.reviews .box {
+	    padding: 40px 0 90px 0;
+	    width: 100%;
+	}
+	.slick-dots li button {
+	    display: flex;
+	    width: 15px;
+	    height: 15px;
+	}
+	.slick-dots li.slick-active button {
+	    background: var(--blue);
+	    width: 25px;
+	    border-radius: 30px;
+	}
+	.box {
+	    width: 100%;
+	    padding-block-end: 35px;
+	}
+	ul.footer-nav {
+	    gap: 20px;
+	    justify-content: center;
+	    flex-wrap: wrap;
+	}
+	.bi-telephone-fill::before {
+	    content: "\f5b4";
+	    font-size: 20px;
+	}
+	.box {
+	    width: 100%;
+	    padding-block: 18px 25px;
+	}
+	.footer h4 {
+	    font-size: 18px;
+	}
+	.footer h5 {
+	    line-height: 25px;
+	    font-size: 13px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px){
+	.d-flex-two{
+		display: none;
+	}
+
+	.top-header{
+	display:block;
+}
+
+#call{
+	background: #000;
+	color:#fff;
+	width: 100%;
+	border:none;
+}
+
+#appointment{
+	width: 100%;
+	border-radius: 0;
+}
+
+}
